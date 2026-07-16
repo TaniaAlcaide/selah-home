@@ -1,0 +1,141 @@
+/* ==========================
+   SELAH HOME
+   Mobile First
+========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    background:#F8F6F2;
+    color:#3B3B3B;
+
+}
+
+header{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px;
+
+    background:white;
+
+}
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+    letter-spacing:2px;
+
+}
+
+nav{
+
+    display:none;
+
+}
+
+.hero{
+
+    min-height:90vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    padding:30px;
+
+}
+
+.hero h1{
+
+    font-size:44px;
+
+    line-height:1.1;
+
+    margin-bottom:20px;
+
+}
+
+.hero p{
+
+    font-size:18px;
+
+    max-width:500px;
+
+    line-height:1.7;
+
+    margin-bottom:40px;
+
+}
+
+.boton{
+
+    background:#B79E73;
+
+    color:white;
+
+    padding:18px 36px;
+
+    border-radius:40px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+}
+
+.boton:hover{
+
+    background:#9E845A;
+
+}
+
+@media(min-width:768px){
+
+nav{
+
+display:flex;
+gap:40px;
+
+}
+
+nav a{
+
+text-decoration:none;
+
+color:#444;
+
+font-weight:600;
+
+}
+
+.hero h1{
+
+font-size:72px;
+
+}
+
+.hero p{
+
+font-size:22px;
+
+}
+
+}
